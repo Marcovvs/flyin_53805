@@ -3,25 +3,6 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    line-height: 1.5;
-}
-
-header{
-    background-color: rgb(255, 255, 255);
-        .listaNav{
-            list-style: none;
-            text-align: center;
-            margin-bottom: 5px;
-            .listaItem{
-                display: inline;
-                text-align: center;
-                .linkNav{
-                    padding: 50px;  
-            }
-        }
-    }
 }
 
 .white{
@@ -32,165 +13,145 @@ header{
     color: black;
 }
 
-.logoIndex{
-    margin:15px 0px 10px 840px;
+.red{
+    color: #ca1f1f;
+}
+
+.fs-13px{
+    font-size: 13px;
+}
+
+.font-h1{
+    font-size: 4rem;
+}
+
+.btn-outline-red{
+    color: #ca1f1f;
+    border-color: #ca1f1f;
+}
+
+.bg-red{
+    background-color: #a11d1d;
+}
+
+.w-95{
+    width: 95%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(249, 249, 249);
+    color: black;
+}
+
+.logo-w{
     width: 180px;
 }
 
-.hrindex{
-    width: 1000px;
-    color: #00000017;
-    margin: 0px 0px 10px 420px;
+.video-size{
+width:1000;
+height:315;
 }
 
-main{
-    background-color: rgb(249, 249, 249);
-        .seccionPrincipal{
-            background-image: url("../assets/img/Principal.jpg");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            width: 100%;
-            height: 50vh;
-            .modelofoto{
-                text-align: center;
-                font-size: 50px;
-                padding: 100px;
-                margin-left: 40px;
-        }
-    }
+.background-image{
+    background-image: url("../assets/img/principal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
 }
 
-.linkGaleriaIndex{
-    box-sizing: content-box;
-    display: inline-block;
-    background-color: #97111100;
-    width:110px;
-    color:white;
-    border:2.5px solid white;
+.background-image-2{
+    background-image: url("../assets/img/catalogo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.background-image-3{
+    background-image: url("../assets/img/noticias.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.background-image-4{
+    background-image: url("../assets/img/comunidad.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.background-image-5{
+    background-image: url("../assets/img/galeria.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.background{
+    background: rgba(255, 255, 255, 0.226);
+}
+
+.modelofoto{
     text-align: center;
-    padding:3px;
-    margin:10px 0px 0px 865px;
-}
-
-.seccionDestacadas{
-    width:90%;
-    margin: auto;
-    .tituloSeccionDestacadas{
-        text-align: center;
-        font-size: 2rem;
-        margin-top: 15px;
-    }
-}
-
-.destacadasIndex{
-        display:inline-block;
-        text-align: center;
-        background-color: #a11d1d;
-        padding-bottom: 110px;
-        height:100px;   
-        margin: 20px 0px 18px 20px;
+    font-size: 50px;
 }
 
 .imgDestacada{
     width:800px;
 }
 
-.hr{
-    width: 800px;
-    margin-left: 450px;
+
+.imagen-noticia{
+    background-image: url("../assets/img/noticia-aj4bred.jpg");
+    background-size: 23%;
+    background-position: center;
+    background-attachment: fixed;
+    width:350px; 
+    height:450px;
 }
 
-.txtnovedadesIndex{
-    font-size: 2rem;
-    text-align: left;
-    margin: 10px 0px 0px 20px;
-}
-
-.vmtxt{
-    text-align: right;
-    font-size: 1rem;
-    color: #363636;
-    margin: 0px 40px 0px 20px
-}
-
-.novedadesIndex{
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 260px;
-    padding: 50px 00px 00px 00px;
-    margin:0px 0px 0px 90px;
-}
-
-.Imgnov{
-    text-align: center;
-    width: 270px;
-    height:172px;
-    object-fit: contain;
-    object-fit: cover;
-}
 
 footer{
-    background-color: #363636;
+    background-color: #1b1b1b;
 }
 
-.logofooter{
-    text-align: left;
-    width:150px;
-    margin: 10px 0px 0px 20px;
+@media (min-width: 992px) {
+    .iframe-video {
+      width: 1000px;
+      height: 315px;
+  }
+}
+
+@media (max-width: 767px) {
+    .background-image {
+        height: 50vh;
+        background-attachment: scroll;
     }
-
-.encontranos{
-    text-align: left;
-    font-size: 1rem;
-}
-
-.fonts40{
-    font-size: 40px
-}
-
-.txtnavegacion{
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.navfooter{
-            display: flex;
-            list-style: none;
-            text-align: center;
-            justify-content: space-around;
-            margin:30px 0px
-}
-
-
-.mleft{
-    margin-left: 20px;
-}
-
-.txtnodeco{
-    text-decoration: none;
-}
-
-.infooter{
-    margin: 0px 0px 30px 20px;
-    list-style: none;
-}
-
-.txtmapa{
-    margin:30px 0px 0px 20px;
-}
-
-.txtfooter{
-    text-align: center;
-    font-size: 13px;
-    padding-bottom: 20px;
-    .noclass{
-        color:rgb(255, 255, 255);
-}
-}
-
-.negrita{
-    font-weight: bold;
+    .background-image-2 {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+    .background-image-3 {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+    .background-image-4 {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+    .background-image-5 {
+        height: 50vh;
+        background-attachment: scroll;
+    }
 }
