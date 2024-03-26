@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    .background-image-1,
+    .background-image-2,
+    .background-image-3,
+    .background-image-4,
+    .background-image-5 {
+        height:$t-50vh;
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) {
+    .iframe-video {
+      width:$t-1000px;
+      height:$t-315px;
+  }
+}

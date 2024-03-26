@@ -1,117 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@charset "UTF-8";
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
-*{
-    margin:0;
-    padding:0;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(249, 249, 249);
+  color: black;
+}
+
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+/*Background propiedades*/
+.background-image {
+  width: 100%;
+  height: 60vh;
+}
+
+.background-image-properties {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /*Definiciones de color*/
-.white{
-    color: white;
+.white {
+  color: white;
 }
-.black{
-    color: black;
+
+.black {
+  color: black;
 }
-.red{
-    color: #ca1f1f;
+
+.red {
+  color: #ca1f1f;
 }
 
 /*Definiciones de fuente*/
-.fs-13px{
-    font-size: 13px;
-}
-.font-h1{
-    font-size: 4rem;
+.fs-13px {
+  font-size: 13px;
 }
 
-/*Definiciones de boton*/
-.btn-outline-red{
-    color: #ca1f1f;
-    border-color: #ca1f1f;
+.font-h1 {
+  font-size: 4rem;
 }
 
-/*Definiciones de background*/
-.bg-red{
-    background-color: #a11d1d;
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+.logo-w {
+  width: 180px;
 }
 
-/*Definiciones varias*/
-.w-95{
-    width: 95%;
-}
-.w-800px{
-    width:800px;
+.btn-outline-red {
+  color: #ca1f1f;
+  border-color: #ca1f1f;
 }
 
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(249, 249, 249);
-    color: black;
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+.background-image-1 {
+  background-image: url("../assets/img/principal.jpg");
 }
 
-.logo-w{
-    width: 180px;
+.bg-red {
+  background-color: #a11d1d;
 }
 
-/*Propiedades background*/
-.background-image{
-    width: 100%;
-    height: 60vh;
-  }
-
-.background-image-1{
-    background-image: url("../assets/img/principal.jpg");
-}
-.background-image-2{
-    background-image: url("../assets/img/catalogo.jpg");
-}
-.background-image-3{
-    background-image: url("../assets/img/noticias.jpg");
-}
-.background-image-4{
-    background-image: url("../assets/img/comunidad.jpg");
-}
-.background-image-5{
-    background-image: url("../assets/img/galeria.jpg");
+.w-800px {
+  width: 800px;
 }
 
-.background-image-properties{
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-.background{
-    background: rgba(255, 255, 255, 0.226);
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+.background-image-2 {
+  background-image: url("../assets/img/catalogo.jpg");
+}
+.background-image-2 .background-catalogotxt {
+  background: rgba(255, 255, 255, 0.226);
 }
 
-
-.video-size{
-    width:1000;
-    height:315;
+.background-image-4 {
+  background-image: url("../assets/img/comunidad.jpg");
 }
 
-
-footer{
-    background-color: #1b1b1b;
+.background-image-5 {
+  background-image: url("../assets/img/galeria.jpg");
 }
 
-/*Media query propiedades*/
-@media (min-width: 992px) {
-    .iframe-video {
-      width: 1000px;
-      height: 315px;
-  }
+.video-size {
+  width: 1000px;
+  height: 315px;
+}
+
+.background-image-3 {
+  background-image: url("../assets/img/noticias.jpg");
+}
+
+/*Definicion de tramaños*/
+/*Mapa de colores*/
+footer {
+  background-color: #1b1b1b;
+}
+footer .w-95 {
+  width: 95%;
 }
 
 @media (max-width: 767px) {
-    .background-image-1,
-    .background-image-2,
-    .background-image-3,
-    .background-image-4,
-    .background-image-5 {
-        height: 50vh;
-        background-attachment: scroll;
-    }
+  .background-image-1,
+  .background-image-2,
+  .background-image-3,
+  .background-image-4,
+  .background-image-5 {
+    height: 50vh;
+    background-attachment: scroll;
+  }
 }
+@media (min-width: 992px) {
+  .iframe-video {
+    width: 1000px;
+    height: 315px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

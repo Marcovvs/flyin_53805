@@ -1,0 +1,10 @@
+@mixin bg-properties {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+@mixin button-outline($color-key) {
+    color: map-get($colores, $color-key);
+    border-color: map-get($colores, $color-key);
+  }
