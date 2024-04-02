@@ -44,3 +44,24 @@ $colores: (bgred:#a11d1d, colorfooter:#1b1b1b, bgcatalogo:rgba(255, 255, 255, 0.
 .txt-color-animation{
     animation: changeColor 8s infinite;
 }
+
+/*Configuracion galeria*/
+.section-galeria{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    .img-galeria{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+      }
+      .img-galeria:hover{
+        cursor: crosshair;
+        width: 200px;
+        opacity: 1;
+        filter: contrast(120%);
+      }
+  }
+  
