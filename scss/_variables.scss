@@ -12,3 +12,35 @@ $t-60vh: 60vh;
 
 /*Mapa de colores*/
 $colores: (bgred:#a11d1d, colorfooter:#1b1b1b, bgcatalogo:rgba(255, 255, 255, 0.226), rojo:#ca1f1f, negro:black, blanco:white);
+
+/*Animaciones*/
+.box{
+    transition: transform 0.2s ease;
+    &:hover{
+        transform: scale(1.1);
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}
+
+@keyframes changeColor{
+    0%{
+        color: black;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: black;
+    }
+}
+.txt-color-animation{
+    animation: changeColor 8s infinite;
+}

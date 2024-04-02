@@ -1,7 +1,39 @@
 @charset "UTF-8";
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +47,38 @@ body {
 
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 /*Background propiedades*/
 .background-image {
   width: 100%;
@@ -49,8 +113,44 @@ body {
   font-size: 4rem;
 }
 
+.stroke {
+  -webkit-text-stroke: 1px black;
+}
+
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 .logo-w {
   width: 180px;
 }
@@ -62,6 +162,38 @@ body {
 
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 .background-image-1 {
   background-image: url("../assets/img/principal.jpg");
 }
@@ -76,6 +208,38 @@ body {
 
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 .background-image-2 {
   background-image: url("../assets/img/catalogo.jpg");
 }
@@ -102,6 +266,38 @@ body {
 
 /*Definicion de tramaños*/
 /*Mapa de colores*/
+/*Animaciones*/
+.box {
+  transition: transform 0.2s ease;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box:hover:active {
+  transform: scale(0.9);
+}
+
+@keyframes changeColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+.txt-color-animation {
+  animation: changeColor 8s infinite;
+}
+
 footer {
   background-color: #1b1b1b;
 }
