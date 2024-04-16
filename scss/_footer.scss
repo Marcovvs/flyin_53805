@@ -1,0 +1,8 @@
+@import 'variables';
+
+footer{
+    background-color: map-get($colores, colorfooter);
+    .w-95{
+        width:$t-95por;
+    }
+}

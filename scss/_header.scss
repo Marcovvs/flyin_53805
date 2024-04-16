@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'mixins';
+
+.logo-w{
+    width:$t-180px;
+}
+.btn-outline-red {
+  @include button-outline(rojo);
+}

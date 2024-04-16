@@ -1,0 +1,32 @@
+@import 'variables';
+
+/*Background propiedades*/
+.background-image{
+    width:$t-100por;
+    height:$t-60vh;
+}
+.background-image-properties{
+    @include bg-properties;
+}
+
+/*Definiciones de color*/
+.white{
+    color:map-get($colores, blanco);
+}
+.black{
+    color:map-get($colores, negro);
+}
+.red{
+    color: map-get($colores, rojo);
+}
+
+/*Definiciones de fuente*/
+.fs-13px{
+    font-size:$t-13px;
+}
+.font-h1{
+    font-size:$t-4rem;
+}
+.stroke{
+    -webkit-text-stroke: 1px black;
+}

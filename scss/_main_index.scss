@@ -1,0 +1,11 @@
+@import 'variables';
+
+.background-image-1{
+    background-image: url("../assets/img/principal.jpg");
+}
+.bg-red{
+    background-color: map-get($colores, bgred);
+}
+.w-800px{
+    width:$t-800px;
+}
